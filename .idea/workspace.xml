@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4a215d0-6516-4ae5-a437-13a37037d2df" name="Changes" comment="" />
+    <list default="true" id="a4a215d0-6516-4ae5-a437-13a37037d2df" name="Changes" comment="Accordion,Rating,Universal button, universal input, universal button+input">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Rating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rating.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,8 +105,16 @@
       <workItem from="1673690457662" duration="8459000" />
       <workItem from="1674224422446" duration="1000" />
       <workItem from="1677066468486" duration="64000" />
-      <workItem from="1677140546676" duration="2565000" />
+      <workItem from="1677140546676" duration="4121000" />
     </task>
+    <task id="LOCAL-00001" summary="Accordion,Rating,Universal button, universal input, universal button+input">
+      <created>1677143486267</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677143486267</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,15 +131,8 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/Rating.tsx</url>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Accordion,Rating,Universal button, universal input, universal button+input" />
+    <option name="LAST_COMMIT_MESSAGE" value="Accordion,Rating,Universal button, universal input, universal button+input" />
   </component>
 </project>

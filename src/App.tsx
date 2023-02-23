@@ -26,8 +26,9 @@ function App() {
     return (
 
         <div>
-            <Accordion titleValue={'First acc'} />
-            <Rating value={1}/>
+            <Accordion titleValue={'First acc'} collapsed={true}/>
+            <Accordion titleValue={'Second acc'} collapsed={false}/>
+            <Rating value={4}/>
             {/*<FullInput addMessage={addMessage}/> Универсальный компонент - инпут + кнопка*/}
             {/*<div>*/}
             {/*    <p>Универсальный инпут + универсальная кнопка</p>*/}
