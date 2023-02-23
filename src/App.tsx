@@ -5,6 +5,7 @@ import {Input} from "./components/Input";
 import {Button} from "./components/Button";
 import Accordion from "./components/Accordion";
 import Rating from "./components/Rating";
+import OnOff from "./components/OnOff";
 
 
 function App() {
@@ -26,9 +27,11 @@ function App() {
     return (
 
         <div>
-            <Accordion titleValue={'First acc'} collapsed={true}/>
-            <Accordion titleValue={'Second acc'} collapsed={false}/>
+            <Accordion titleValue={'First acc'}/>
+            <Accordion titleValue={'Second acc'}/>
             <Rating value={4}/>
+            <OnOff />
+            <OnOff />
             {/*<FullInput addMessage={addMessage}/> Универсальный компонент - инпут + кнопка*/}
             {/*<div>*/}
             {/*    <p>Универсальный инпут + универсальная кнопка</p>*/}

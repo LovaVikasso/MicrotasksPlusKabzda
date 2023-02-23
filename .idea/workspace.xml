@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4a215d0-6516-4ae5-a437-13a37037d2df" name="Changes" comment="Accordion,Rating,Universal button, universal input, universal button+input">
+    <list default="true" id="a4a215d0-6516-4ae5-a437-13a37037d2df" name="Changes" comment="Accordion,Rating refactor, conditional rendering">
+      <change afterPath="$PROJECT_DIR$/src/components/OnOff.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/OnOff.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Super button input.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/and React Kabzda.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Rating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rating.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +34,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2IRdOPs4QcrXhok2GCCfQBGnz8O" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -105,7 +111,7 @@
       <workItem from="1673690457662" duration="8459000" />
       <workItem from="1674224422446" duration="1000" />
       <workItem from="1677066468486" duration="64000" />
-      <workItem from="1677140546676" duration="4121000" />
+      <workItem from="1677140546676" duration="8888000" />
     </task>
     <task id="LOCAL-00001" summary="Accordion,Rating,Universal button, universal input, universal button+input">
       <created>1677143486267</created>
@@ -114,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677143486267</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Accordion,Rating refactor, conditional rendering">
+      <created>1677145064371</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677145064371</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +146,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Accordion,Rating,Universal button, universal input, universal button+input" />
-    <option name="LAST_COMMIT_MESSAGE" value="Accordion,Rating,Universal button, universal input, universal button+input" />
+    <MESSAGE value="Accordion,Rating refactor, conditional rendering" />
+    <option name="LAST_COMMIT_MESSAGE" value="Accordion,Rating refactor, conditional rendering" />
   </component>
 </project>
