@@ -8,8 +8,8 @@ const Accordion = (props: AccordionPropsType) => {
     let [collapsed, setCollapsed] = useState(true)
     return (
         <div>
-            <AccordionTitle title={props.titleValue}/>
-            <button onClick={() => {setCollapsed(!collapsed)}}>Toggle</button>
+            <AccordionTitle title={props.titleValue}  onClick={()=>{setCollapsed(!collapsed)}}/>
+            {/*<button onClick={() => {setCollapsed(!collapsed)}}>Toggle</button>*/}
             {!collapsed && <AccordionBody/>}
         </div>
     );
@@ -17,9 +17,12 @@ const Accordion = (props: AccordionPropsType) => {
 
 type AccordionTitlePropsType = {
     title: string
+    onClick:()=>void
+    //collapsed:boolean
+    //setCollapsed:(collapsed:boolean)=>void
 }
 const AccordionTitle = (props: AccordionTitlePropsType) => {
-    return <h3>{props.title}</h3>
+    return <h3 onClick={()=>{props.onClick()}}>{props.title}</h3>
 
 
 }

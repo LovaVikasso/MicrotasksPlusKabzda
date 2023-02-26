@@ -32,8 +32,8 @@ const App = () => {
             <Accordion titleValue={'First acc'}/>
             <Accordion titleValue={'Second acc'}/>
 
-            <div className="Rating"><ControlledRating value={2} /></div>
-            <div className="Rating"><UnControlledRating /></div>
+            <div className="Rating"> Controlled Rating <ControlledRating value={2} /></div>
+            <div className="Rating"> Uncontrolled<UnControlledRating /></div>
 
             <OnOff />
             <OnOff />
