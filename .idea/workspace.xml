@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4a215d0-6516-4ae5-a437-13a37037d2df" name="Changes" comment="Accordion,Rating refactor, conditional rendering">
-      <change afterPath="$PROJECT_DIR$/src/components/OnOff.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/OnOff.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Super button input.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/and React Kabzda.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="a4a215d0-6516-4ae5-a437-13a37037d2df" name="Changes" comment="Uncontrolled component  and useState via Accordion, OnOffRadio">
+      <change afterPath="$PROJECT_DIR$/src/components/UnControlledRating.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Rating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ControlledRating.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,22 +38,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/victoriapavlova/Desktop/Incubator/MicroTasks&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.web.browsers&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/victoriapavlova/Desktop/Incubator/MicroTasks/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/victoriapavlova/Desktop/Incubator/MicroTasks/src/components",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
+    "ts.external.directory.path": "/Users/victoriapavlova/Desktop/Incubator/MicroTasks/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components" />
@@ -111,7 +108,10 @@
       <workItem from="1673690457662" duration="8459000" />
       <workItem from="1674224422446" duration="1000" />
       <workItem from="1677066468486" duration="64000" />
-      <workItem from="1677140546676" duration="8888000" />
+      <workItem from="1677140546676" duration="9271000" />
+      <workItem from="1677226668676" duration="612000" />
+      <workItem from="1677397300445" duration="2616000" />
+      <workItem from="1677400596551" duration="731000" />
     </task>
     <task id="LOCAL-00001" summary="Accordion,Rating,Universal button, universal input, universal button+input">
       <created>1677143486267</created>
@@ -127,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677145064371</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Uncontrolled component  and useState via Accordion, OnOffRadio">
+      <created>1677155282081</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677155282081</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +154,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Accordion,Rating,Universal button, universal input, universal button+input" />
     <MESSAGE value="Accordion,Rating refactor, conditional rendering" />
-    <option name="LAST_COMMIT_MESSAGE" value="Accordion,Rating refactor, conditional rendering" />
+    <MESSAGE value="Uncontrolled component  and useState via Accordion, OnOffRadio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uncontrolled component  and useState via Accordion, OnOffRadio" />
   </component>
 </project>

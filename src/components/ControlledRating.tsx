@@ -3,7 +3,7 @@ import React from 'react';
 type RatingPropsType = {
     value: 0 | 1 | 2 | 3 | 4 | 5
 }
-const Rating = (props: RatingPropsType) => {
+const ControlledRating = (props: RatingPropsType) => {
         return <div>
             <Star selected={props.value>0}/>
             <Star selected={props.value>1}/>
@@ -17,4 +17,4 @@ type StarPropsType = { selected: boolean }
 const Star = (props: StarPropsType) => {
     return props.selected ? <span><b>Star </b></span> : <span>Star </span>
 }
-export default Rating;
+export default ControlledRating;

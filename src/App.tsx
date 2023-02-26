@@ -4,11 +4,13 @@ import {FullInput} from "./components/FullInput";
 import {Input} from "./components/Input";
 import {Button} from "./components/Button";
 import Accordion from "./components/Accordion";
-import Rating from "./components/Rating";
 import OnOff from "./components/OnOff";
+import ControlledRating from "./components/ControlledRating";
+import UnControlledRating from "./components/UnControlledRating";
 
 
-function App() {
+
+const App = () => {
     let [message, setMessage] = useState([
         {message: 'message1'},
         {message: 'message2'},
@@ -26,10 +28,13 @@ function App() {
     }
     return (
 
-        <div>
+        <div className="App">
             <Accordion titleValue={'First acc'}/>
             <Accordion titleValue={'Second acc'}/>
-            <Rating value={4}/>
+
+            <div className="Rating"><ControlledRating value={2} /></div>
+            <div className="Rating"><UnControlledRating /></div>
+
             <OnOff />
             <OnOff />
             {/*<FullInput addMessage={addMessage}/> Универсальный компонент - инпут + кнопка*/}
