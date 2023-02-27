@@ -4,7 +4,7 @@ import s from "./OnOff.module.css"
 type OnOffPropsType = {
     // value:boolean
 }
-const OnOff = (props: OnOffPropsType) => {
+const UncontrolledOnOff = (props: OnOffPropsType) => {
     let [value, setValue] = useState(true)
     const onStyle = {
         width: "30px",
@@ -42,4 +42,4 @@ const OnOff = (props: OnOffPropsType) => {
     );
 };
 
-export default OnOff;
+export default UncontrolledOnOff;
