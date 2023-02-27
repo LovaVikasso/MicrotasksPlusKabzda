@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4a215d0-6516-4ae5-a437-13a37037d2df" name="Changes" comment="Uncontrolled Rating and Accordion callback">
-      <change afterPath="$PROJECT_DIR$/src/components/ControlledOnOff.tsx" afterDir="false" />
+    <list default="true" id="a4a215d0-6516-4ae5-a437-13a37037d2df" name="Changes" comment="Uncontrolled OnOff and Accordion components, callback 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ControlledRating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ControlledRating.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/OnOff.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UncontrolledOnOff.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UncontrolledOnOff.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UncontrolledOnOff.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +109,7 @@
       <workItem from="1677140546676" duration="9271000" />
       <workItem from="1677226668676" duration="612000" />
       <workItem from="1677397300445" duration="2616000" />
-      <workItem from="1677400596551" duration="7462000" />
+      <workItem from="1677400596551" duration="9976000" />
     </task>
     <task id="LOCAL-00001" summary="Accordion,Rating,Universal button, universal input, universal button+input">
       <created>1677143486267</created>
@@ -149,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677412458167</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Uncontrolled OnOff and Accordion components, callback 2">
+      <created>1677490171358</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677490171358</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +176,7 @@
     <MESSAGE value="Uncontrolled component  and useState via Accordion, OnOffRadio" />
     <MESSAGE value="Uncontrolled Rating component" />
     <MESSAGE value="Uncontrolled Rating and Accordion callback" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uncontrolled Rating and Accordion callback" />
+    <MESSAGE value="Uncontrolled OnOff and Accordion components, callback 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uncontrolled OnOff and Accordion components, callback 2" />
   </component>
 </project>

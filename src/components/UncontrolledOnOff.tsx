@@ -3,9 +3,11 @@ import s from "./OnOff.module.css"
 
 type OnOffPropsType = {
     // value:boolean
+    onChange: (value: boolean) => void
 }
 const UncontrolledOnOff = (props: OnOffPropsType) => {
-    let [value, setValue] = useState(true)
+    let [value, setValue] = useState(false)
+
     const onStyle = {
         width: "30px",
         height: "40px",
@@ -32,11 +34,20 @@ const UncontrolledOnOff = (props: OnOffPropsType) => {
         marginLeft: "5px",
         backgroundColor: value ? "green" : "red"
     }
-
+    const onClicked = () => {
+        setValue(true)
+        props.onChange(true)
+    }
+    const OffClicked = () => {
+        setValue(false)
+        props.onChange(false)
+    }
     return (
         <div className={s.onOff}>
-            <div style={onStyle} onClick={()=>setValue(true)}>On</div>
-            <div style={offStyle} onClick={()=>setValue(false)}>Off</div>
+            <div style={onStyle} onClick={onClicked}>On
+            </div>
+            <div style={offStyle} onClick={OffClicked}>Off
+            </div>
             <div style={indicatorStyle}></div>
         </div>
     );

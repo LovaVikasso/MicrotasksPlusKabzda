@@ -29,7 +29,7 @@ const App = () => {
     }
     let [ratingValue, setRatingValue] = useState<RatingValueType>(0)
     let [accordionCollapsed, setAccordionCollapsed] = useState(true)
-    let [switchOn, setSwitchOn] = useState(false)
+    let [switchOn, setSwitchOn] = useState<boolean>(true)
     return (
 
         <div className="App">
@@ -38,8 +38,8 @@ const App = () => {
             <div className="Rating"> Controlled Rating <ControlledRating value={ratingValue} onClick={setRatingValue}/></div>
             <div className="Rating"> Uncontrolled <UnControlledRating /></div>
 
-            <UncontrolledOnOff />
-            <ControlledOnOff value={switchOn} onChange={(switchOn)=>{setSwitchOn(switchOn)}}/>
+            <UncontrolledOnOff onChange={setSwitchOn}/> {switchOn.toString()}
+            {/*<ControlledOnOff value={switchOn} onChange={(switchOn)=>{setSwitchOn(switchOn)}}/>*/}
             {/*<FullInput addMessage={addMessage}/> Универсальный компонент - инпут + кнопка*/}
             {/*<div>*/}
             {/*    <p>Универсальный инпут + универсальная кнопка</p>*/}
