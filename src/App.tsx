@@ -8,6 +8,7 @@ import ControlledRating, {RatingValueType} from "./components/ControlledRating";
 import UnControlledRating from "./components/UnControlledRating";
 import UncontrolledOnOff from "./components/UncontrolledOnOff";
 import ControlledOnOff from "./components/ControlledOnOff";
+import {UncontrolledInput} from "./components/UncontrolledInput";
 
 
 
@@ -39,6 +40,7 @@ const App = () => {
             <div className="Rating"> Uncontrolled <UnControlledRating /></div>
 
             <UncontrolledOnOff onChange={setSwitchOn}/> {switchOn.toString()}
+            <UncontrolledInput />
             {/*<ControlledOnOff value={switchOn} onChange={(switchOn)=>{setSwitchOn(switchOn)}}/>*/}
             {/*<FullInput addMessage={addMessage}/> Универсальный компонент - инпут + кнопка*/}
             {/*<div>*/}

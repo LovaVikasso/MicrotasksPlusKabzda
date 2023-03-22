@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4a215d0-6516-4ae5-a437-13a37037d2df" name="Changes" comment="Uncontrolled OnOff and Accordion components, callback 2">
+      <change afterPath="$PROJECT_DIR$/src/components/UncontrolledInput.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UncontrolledOnOff.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UncontrolledOnOff.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/victoriapavlova/Desktop/Incubator/MicroTasks/src/components",
+    "last_opened_file_path": "/Users/victoriapavlova/Desktop/Incubator/MicroTasks",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -109,7 +109,8 @@
       <workItem from="1677140546676" duration="9271000" />
       <workItem from="1677226668676" duration="612000" />
       <workItem from="1677397300445" duration="2616000" />
-      <workItem from="1677400596551" duration="9976000" />
+      <workItem from="1677400596551" duration="10261000" />
+      <workItem from="1679483945137" duration="1398000" />
     </task>
     <task id="LOCAL-00001" summary="Accordion,Rating,Universal button, universal input, universal button+input">
       <created>1677143486267</created>
@@ -153,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677490171358</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Uncontrolled OnOff and Accordion components, callback 2">
+      <created>1677497735049</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677497735049</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
