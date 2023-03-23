@@ -8,7 +8,8 @@ export const UncontrolledInput = () => {
         setValue(el.value)//меняем value на текущее значение
     }
     return (
-        <div>
+        <div className="UnControlledInput">
+
             <input ref={inputRef} /> <button onClick={save}>Save </button> - actual value: {value}
         {/* в инпуте привязываем ссылку, к которой обращаемся в save  */}
         </div>

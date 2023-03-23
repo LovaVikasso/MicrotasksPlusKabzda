@@ -9,6 +9,9 @@ import UnControlledRating from "./components/UnControlledRating";
 import UncontrolledOnOff from "./components/UncontrolledOnOff";
 import ControlledOnOff from "./components/ControlledOnOff";
 import {UncontrolledInput} from "./components/UncontrolledInput";
+import {ControlledInput} from "./components/ControlledInput";
+import {ControlledCheckBox} from "./components/ControlledCheckBox";
+import {ControlledSelect} from "./components/ControlledSelect";
 
 
 
@@ -41,6 +44,9 @@ const App = () => {
 
             <UncontrolledOnOff onChange={setSwitchOn}/> {switchOn.toString()}
             <UncontrolledInput />
+            <ControlledInput />
+            <ControlledCheckBox />
+            <ControlledSelect/>
             {/*<ControlledOnOff value={switchOn} onChange={(switchOn)=>{setSwitchOn(switchOn)}}/>*/}
             {/*<FullInput addMessage={addMessage}/> Универсальный компонент - инпут + кнопка*/}
             {/*<div>*/}
