@@ -12,3 +12,13 @@
 }
 .App > div {
 }
+.ControlledInput {
+    margin: 20px auto;
+}
+.UnControlledInput {
+    margin: 20px auto;
+}
+
+.ControlledSelect {
+    margin: 20px auto;
+}

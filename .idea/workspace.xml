@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4a215d0-6516-4ae5-a437-13a37037d2df" name="Changes" comment="Uncontrolled OnOff and Accordion components, callback 2">
-      <change afterPath="$PROJECT_DIR$/src/components/UncontrolledInput.tsx" afterDir="false" />
+    <list default="true" id="a4a215d0-6516-4ae5-a437-13a37037d2df" name="Changes" comment="Controlled Input, Checkbox, Select">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +110,7 @@
       <workItem from="1677226668676" duration="612000" />
       <workItem from="1677397300445" duration="2616000" />
       <workItem from="1677400596551" duration="10261000" />
-      <workItem from="1679483945137" duration="1398000" />
+      <workItem from="1679483945137" duration="9703000" />
     </task>
     <task id="LOCAL-00001" summary="Accordion,Rating,Universal button, universal input, universal button+input">
       <created>1677143486267</created>
@@ -161,7 +161,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677497735049</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Uncontrolled Input with useRef">
+      <created>1679486113345</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679486113345</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Controlled Input, Checkbox, Select">
+      <created>1679556604233</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679556604233</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +199,8 @@
     <MESSAGE value="Uncontrolled Rating component" />
     <MESSAGE value="Uncontrolled Rating and Accordion callback" />
     <MESSAGE value="Uncontrolled OnOff and Accordion components, callback 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uncontrolled OnOff and Accordion components, callback 2" />
+    <MESSAGE value="Uncontrolled Input with useRef" />
+    <MESSAGE value="Controlled Input, Checkbox, Select" />
+    <option name="LAST_COMMIT_MESSAGE" value="Controlled Input, Checkbox, Select" />
   </component>
 </project>
