@@ -22,3 +22,13 @@
 .ControlledSelect {
     margin: 20px auto;
 }
+
+.uncontrolledSelect {
+    margin: 10px ;
+    border: black 1px solid;
+
+}
+.uncontrolledOption {
+    padding: 4px;
+
+}

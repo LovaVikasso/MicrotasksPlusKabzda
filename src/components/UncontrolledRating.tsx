@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-const UnControlledRating = () => {
+const UncontrolledRating = () => {
     let [value, setValue] = useState(0)
         return <div>
             <Star selected={value>0} setValue={setValue} value={1}/>
@@ -20,4 +20,4 @@ const Star = (props: StarPropsType) => {
     return <span onClick={()=>{props.setValue(props.value)}}>{props.selected ? <b>Star </b> : "Star " }</span>
     // return props.selected ? <span><b>Star </b></span> : <span>Star </span>
 }
-export default UnControlledRating;
+export default UncontrolledRating;

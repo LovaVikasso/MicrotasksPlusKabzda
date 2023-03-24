@@ -5,14 +5,14 @@ import {Input} from "./components/Input";
 import {Button} from "./components/Button";
 import Accordion from "./components/Accordion";
 import ControlledRating, {RatingValueType} from "./components/ControlledRating";
-import UnControlledRating from "./components/UnControlledRating";
+// import UncontrolledRating from "./components/UncontrolledRating";
 import UncontrolledOnOff from "./components/UncontrolledOnOff";
 import ControlledOnOff from "./components/ControlledOnOff";
 import {UncontrolledInput} from "./components/UncontrolledInput";
 import {ControlledInput} from "./components/ControlledInput";
 import {ControlledCheckBox} from "./components/ControlledCheckBox";
 import {ControlledSelect} from "./components/ControlledSelect";
-
+import {UncontrolledSelect} from "./components/UncontrolledSelect";
 
 
 const App = () => {
@@ -33,29 +33,42 @@ const App = () => {
     }
     let [ratingValue, setRatingValue] = useState<RatingValueType>(0)
     let [accordionCollapsed, setAccordionCollapsed] = useState(true)
+    const [selectCollapsed, setSelectCollapsed] = useState(true)
     let [switchOn, setSwitchOn] = useState<boolean>(true)
+    const onChangeSelect = ()=>{setSelectCollapsed(!selectCollapsed)}
+
+    const selectItems = [
+        {name: "Option", id:1},
+        {name: "Another option", id:2},
+        {name: "Choice", id:3},
+    ]
     return (
 
         <div className="App">
             <Accordion titleValue={'First acc'}
                        collapsed={accordionCollapsed}
-                       onChange={()=>{setAccordionCollapsed(!accordionCollapsed)}}
-            items={[
-                {title:"1",value:1},
-                {title:"2",value:2},
-                {title:"Hello",value:3},
-                {title:"Hi",value:5}]}
-                       onItemClick={(value)=>alert(`Item with ID ${value} clicked`)}/>
+                       onChange={() => {
+                           setAccordionCollapsed(!accordionCollapsed)
+                       }}
+                       items={[
+                           {title: "1", value: 1},
+                           {title: "2", value: 2},
+                           {title: "Hello", value: 3},
+                           {title: "Hi", value: 5}]}
+                       onItemClick={(value) => alert(`Item with ID ${value} clicked`)}/>
+            <UncontrolledSelect items={selectItems} />
+            {/*<div className="Rating"> Controlled Rating <ControlledRating value={ratingValue} onClick={setRatingValue}/>*/}
+            {/*</div>*/}
+            {/*<div className="Rating"> Uncontrolled <UncontrolledRating/></div>*/}
 
-            <div className="Rating"> Controlled Rating <ControlledRating value={ratingValue} onClick={setRatingValue}/></div>
-            <div className="Rating"> Uncontrolled <UnControlledRating /></div>
-
-            <UncontrolledOnOff onChange={setSwitchOn}/> {switchOn.toString()}
-            <UncontrolledInput />
-            <ControlledInput />
-            <ControlledCheckBox />
-            <ControlledSelect/>
-            {/*<ControlledOnOff value={switchOn} onChange={(switchOn)=>{setSwitchOn(switchOn)}}/>*/}
+            {/*<UncontrolledOnOff onChange={setSwitchOn}/> {switchOn.toString()}*/}
+            {/*<UncontrolledInput/>*/}
+            {/*<ControlledInput/>*/}
+            {/*<ControlledCheckBox/>*/}
+            {/*<ControlledSelect/>*/}
+            {/*<ControlledOnOff value={switchOn} onChange={(switchOn) => {*/}
+            {/*    setSwitchOn(switchOn)*/}
+            {/*}}/>*/}
             {/*<FullInput addMessage={addMessage}/> Универсальный компонент - инпут + кнопка*/}
             {/*<div>*/}
             {/*    <p>Универсальный инпут + универсальная кнопка</p>*/}
@@ -64,6 +77,7 @@ const App = () => {
 
             {/*</div>*/}
             {/*<div>*/}
+            {/*    <p>Работа с мапом</p>*/}
             {/*    {message.map((el, index) => {*/}
             {/*        return (*/}
             {/*            <div key={index}> {el.message} </div>*/}
