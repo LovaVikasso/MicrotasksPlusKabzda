@@ -13,6 +13,7 @@ import {ControlledInput} from "./components/ControlledInput";
 import {ControlledCheckBox} from "./components/ControlledCheckBox";
 import {ControlledSelect} from "./components/ControlledSelect";
 import {UncontrolledSelect} from "./components/UncontrolledSelect";
+import {UncontrolledAccordion} from "./components/UncontrolledAccordion";
 
 
 const App = () => {
@@ -45,18 +46,19 @@ const App = () => {
     return (
 
         <div className="App">
-            <Accordion titleValue={'First acc'}
-                       collapsed={accordionCollapsed}
-                       onChange={() => {
-                           setAccordionCollapsed(!accordionCollapsed)
-                       }}
-                       items={[
-                           {title: "1", value: 1},
-                           {title: "2", value: 2},
-                           {title: "Hello", value: 3},
-                           {title: "Hi", value: 5}]}
-                       onItemClick={(value) => alert(`Item with ID ${value} clicked`)}/>
-            <UncontrolledSelect items={selectItems} />
+            <UncontrolledAccordion titleValue={"UncontrolledAccordion with useReducer"} />
+            {/*<Accordion titleValue={'First acc'}*/}
+            {/*           collapsed={accordionCollapsed}*/}
+            {/*           onChange={() => {*/}
+            {/*               setAccordionCollapsed(!accordionCollapsed)*/}
+            {/*           }}*/}
+            {/*           items={[*/}
+            {/*               {title: "1", value: 1},*/}
+            {/*               {title: "2", value: 2},*/}
+            {/*               {title: "Hello", value: 3},*/}
+            {/*               {title: "Hi", value: 5}]}*/}
+            {/*           onItemClick={(value) => alert(`Item with ID ${value} clicked`)}/>*/}
+            {/*<UncontrolledSelect items={selectItems} />*/}
             {/*<div className="Rating"> Controlled Rating <ControlledRating value={ratingValue} onClick={setRatingValue}/>*/}
             {/*</div>*/}
             {/*<div className="Rating"> Uncontrolled <UncontrolledRating/></div>*/}
