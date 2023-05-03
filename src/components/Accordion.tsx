@@ -13,9 +13,7 @@ type AccordionPropsType = {
    // items:string[]
     // collapsed?:boolean
 }
-
-
-const Accordion = (props: AccordionPropsType) => {
+const Accordion = React.memo((props: AccordionPropsType) => {
     //let [collapsed, setCollapsed] = useState(true)
     return (
         <div>
@@ -25,7 +23,7 @@ const Accordion = (props: AccordionPropsType) => {
             {/*<button onClick={() => {setCollapsed(!collapsed)}}>Toggle</button>*/}
         </div>
     );
-};
+})
 
 type AccordionTitlePropsType = {
     title: string
@@ -33,15 +31,15 @@ type AccordionTitlePropsType = {
     //collapsed:boolean
     //setCollapsed:(collapsed:boolean)=>void
 }
-const AccordionTitle = (props: AccordionTitlePropsType) => {
+const AccordionTitle = React.memo((props: AccordionTitlePropsType) => {
     return <h3 onClick={props.onChange}>{props.title}</h3>
-}
+})
 
 type AccordionBodyPropsType = {
     items:Array<ItemType>
     onClick:(value:any)=>void
 }
-const AccordionBody = (props:AccordionBodyPropsType) => {
+const AccordionBody = React.memo((props:AccordionBodyPropsType) => {
     return (
         <div>
             <ul>
@@ -49,5 +47,5 @@ const AccordionBody = (props:AccordionBodyPropsType) => {
             </ul>
         </div>
     )
-}
+})
 export default Accordion;

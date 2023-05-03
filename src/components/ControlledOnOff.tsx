@@ -5,7 +5,7 @@ type OnOffPropsType = {
     value: boolean
     onChange: (value:boolean) => void
 }
-const ControlledOnOff = (props: OnOffPropsType) => {
+const ControlledOnOff = React.memo((props: OnOffPropsType) => {
     const onStyle = {
         width: "30px",
         height: "40px",
@@ -40,6 +40,6 @@ const ControlledOnOff = (props: OnOffPropsType) => {
             <div style={indicatorStyle}></div>
         </div>
     );
-};
+})
 
 export default ControlledOnOff;

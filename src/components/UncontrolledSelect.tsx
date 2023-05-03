@@ -9,7 +9,7 @@ type SelectPropsType = {
     value?: number
 }
 
-export const UncontrolledSelect = (props: SelectPropsType) => {
+export const UncontrolledSelect = React.memo((props: SelectPropsType) => {
     const [title, setTitle] = useState("Choose option")
     let [collapsed, setCollapsed] = useState(true)
     const onClick = () => {
@@ -27,5 +27,5 @@ export const UncontrolledSelect = (props: SelectPropsType) => {
             }
         </div>
     );
-};
+})
 

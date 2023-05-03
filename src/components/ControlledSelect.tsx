@@ -1,6 +1,6 @@
 import React, {ChangeEvent, useState} from "react";
 
-export const ControlledSelect = () => {
+export const ControlledSelect = React.memo(() => {
     const [parentValue, setParentValue] = useState<string | undefined>(undefined)
     const OnChangeHandler = (e: ChangeEvent<HTMLSelectElement>) => {
         setParentValue(e.currentTarget.value)
@@ -16,4 +16,4 @@ export const ControlledSelect = () => {
             </select>
         </div>
     );
-};
+})

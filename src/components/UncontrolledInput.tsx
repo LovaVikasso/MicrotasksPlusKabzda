@@ -1,6 +1,6 @@
 import React, {useRef, useState} from 'react';
 //используем ref
-export const UncontrolledInput = () => {
+export const UncontrolledInput = React.memo(() => {
     const [value, setValue] = useState('')
     const inputRef = useRef<HTMLInputElement>(null)// с помощью хука создаем ссылку на элемент
     const save = () =>{
@@ -14,4 +14,4 @@ export const UncontrolledInput = () => {
         {/* в инпуте привязываем ссылку, к которой обращаемся в save  */}
         </div>
     );
-};
+})

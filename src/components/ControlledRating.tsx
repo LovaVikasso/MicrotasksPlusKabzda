@@ -7,7 +7,7 @@ type RatingPropsType = {
 }
 
 
-const ControlledRating = (props: RatingPropsType) => {
+const ControlledRating = React.memo((props: RatingPropsType) => {
     return <div>
         <Star selected={props.value > 0} onClick={props.onClick} value={1}/>
         <Star selected={props.value > 1} onClick={props.onClick} value={2}/>
@@ -15,7 +15,7 @@ const ControlledRating = (props: RatingPropsType) => {
         <Star selected={props.value > 3} onClick={props.onClick} value={4}/>
         <Star selected={props.value > 4} onClick={props.onClick} value={5}/>
     </div>
-};
+})
 
 type StarPropsType = {
     selected: boolean

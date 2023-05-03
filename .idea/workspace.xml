@@ -4,10 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4a215d0-6516-4ae5-a437-13a37037d2df" name="Changes" comment="UncontrolledSelect self-written">
-      <change afterPath="$PROJECT_DIR$/src/components/UncontrolledAccordion.tsx" afterDir="false" />
+    <list default="true" id="a4a215d0-6516-4ae5-a437-13a37037d2df" name="Changes" comment="UncontrolledAccordion - useReducer example">
+      <change afterPath="$PROJECT_DIR$/src/components/ReactMemoDemo.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ControlledCheckBox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ControlledCheckBox.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ControlledInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ControlledInput.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ControlledOnOff.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ControlledOnOff.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ControlledRating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ControlledRating.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ControlledSelect.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ControlledSelect.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FullInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FullInput.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Input.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UncontrolledAccordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UncontrolledAccordion.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UncontrolledInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UncontrolledInput.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UncontrolledOnOff.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UncontrolledOnOff.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UncontrolledRating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UncontrolledRating.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UncontrolledSelect.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UncontrolledSelect.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +128,7 @@
       <workItem from="1679644610868" duration="8135000" />
       <workItem from="1679821972609" duration="1751000" />
       <workItem from="1682671833588" duration="4457000" />
-      <workItem from="1682853730982" duration="2781000" />
+      <workItem from="1682853730982" duration="8179000" />
     </task>
     <task id="LOCAL-00001" summary="Accordion,Rating,Universal button, universal input, universal button+input">
       <created>1677143486267</created>
@@ -179,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679651561740</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="UncontrolledAccordion - useReducer example">
+      <created>1682859208834</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682859208834</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +233,7 @@
     <MESSAGE value="Accordion with basic array" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="UncontrolledSelect self-written" />
-    <option name="LAST_COMMIT_MESSAGE" value="UncontrolledSelect self-written" />
+    <MESSAGE value="UncontrolledAccordion - useReducer example" />
+    <option name="LAST_COMMIT_MESSAGE" value="UncontrolledAccordion - useReducer example" />
   </component>
 </project>

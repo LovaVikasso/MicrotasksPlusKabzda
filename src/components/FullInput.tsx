@@ -4,7 +4,7 @@ type FullInputPropsType = {
     addMessage: (title:string) => void
 }
 
-export const FullInput = (props: FullInputPropsType) => {
+export const FullInput = React.memo((props: FullInputPropsType) => {
     let [title, setTitle] = useState('')
 
     const onChangeInputHandler = (event: ChangeEvent<HTMLInputElement>) => {
@@ -23,4 +23,4 @@ export const FullInput = (props: FullInputPropsType) => {
         </div>
     )
 
-}
+})

@@ -14,6 +14,7 @@ import {ControlledCheckBox} from "./components/ControlledCheckBox";
 import {ControlledSelect} from "./components/ControlledSelect";
 import {UncontrolledSelect} from "./components/UncontrolledSelect";
 import {UncontrolledAccordion} from "./components/UncontrolledAccordion";
+import {ReactMemoDemo} from "./components/ReactMemoDemo";
 
 
 const App = () => {
@@ -46,7 +47,8 @@ const App = () => {
     return (
 
         <div className="App">
-            <UncontrolledAccordion titleValue={"UncontrolledAccordion with useReducer"} />
+            <ReactMemoDemo />
+            {/*<UncontrolledAccordion titleValue={"UncontrolledAccordion with useReducer"} />*/}
             {/*<Accordion titleValue={'First acc'}*/}
             {/*           collapsed={accordionCollapsed}*/}
             {/*           onChange={() => {*/}

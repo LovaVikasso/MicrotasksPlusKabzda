@@ -1,6 +1,6 @@
 import React, {ChangeEvent, useState} from 'react';
 
-export const ControlledInput = () => {
+export const ControlledInput = React.memo(() => {
     const [parentValue, setParentValue] = useState("")
     const OnChangeHandler = (e: ChangeEvent<HTMLInputElement>) => {
         setParentValue(e.currentTarget.value)
@@ -11,7 +11,7 @@ export const ControlledInput = () => {
             <input value={parentValue} onChange={OnChangeHandler}/>
         </div>
     );
-};
+})
 
 
 

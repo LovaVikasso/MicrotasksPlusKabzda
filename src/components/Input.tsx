@@ -1,11 +1,11 @@
-import {ChangeEvent} from "react";
+import React, {ChangeEvent} from "react";
 
 type InputPropsType = {
     title: string
     setTitle: (title:string) => void
 }
 
-export const Input = (props: InputPropsType) => {
+export const Input = React.memo((props: InputPropsType) => {
     const onChangeInputHandler = (event: ChangeEvent<HTMLInputElement>) => {
         props.setTitle(event.currentTarget.value)
     }
@@ -16,4 +16,4 @@ export const Input = (props: InputPropsType) => {
         </div>
     )
 
-}
+})
