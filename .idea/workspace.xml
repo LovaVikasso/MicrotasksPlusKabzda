@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4a215d0-6516-4ae5-a437-13a37037d2df" name="Changes" comment="ReactMemo all Components">
-      <change afterPath="$PROJECT_DIR$/src/components/UseMemoDemo.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UseMemoWithReactMemoDemo.tsx" afterDir="false" />
+    <list default="true" id="a4a215d0-6516-4ae5-a437-13a37037d2df" name="Changes" comment="UseMemo example, in UseMemoDemo&#10;UseMemo with React.memo in UseMemoWithReactMemoDemo">
+      <change afterPath="$PROJECT_DIR$/src/components/CounterUseState.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +116,10 @@
       <workItem from="1679821972609" duration="1751000" />
       <workItem from="1682671833588" duration="4457000" />
       <workItem from="1682853730982" duration="8824000" />
-      <workItem from="1683190174323" duration="4626000" />
+      <workItem from="1683190174323" duration="5468000" />
+      <workItem from="1683274014154" duration="1185000" />
+      <workItem from="1683277081951" duration="50000" />
+      <workItem from="1683278859207" duration="998000" />
     </task>
     <task id="LOCAL-00001" summary="Accordion,Rating,Universal button, universal input, universal button+input">
       <created>1677143486267</created>
@@ -195,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683115941633</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="UseMemo example, in UseMemoDemo&#10;UseMemo with React.memo in UseMemoWithReactMemoDemo">
+      <created>1683199324910</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1683199324910</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +240,7 @@
     <MESSAGE value="UncontrolledSelect self-written" />
     <MESSAGE value="UncontrolledAccordion - useReducer example" />
     <MESSAGE value="ReactMemo all Components" />
-    <option name="LAST_COMMIT_MESSAGE" value="ReactMemo all Components" />
+    <MESSAGE value="UseMemo example, in UseMemoDemo&#10;UseMemo with React.memo in UseMemoWithReactMemoDemo" />
+    <option name="LAST_COMMIT_MESSAGE" value="UseMemo example, in UseMemoDemo&#10;UseMemo with React.memo in UseMemoWithReactMemoDemo" />
   </component>
 </project>

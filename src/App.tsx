@@ -16,6 +16,7 @@ import {UncontrolledSelect} from "./components/UncontrolledSelect";
 import {UncontrolledAccordion} from "./components/UncontrolledAccordion";
 import {ReactMemoDemo} from "./components/ReactMemoDemo";
 import {UseMemoDemo} from "./components/UseMemoDemo";
+import {CounterUseState} from "./components/CounterUseState";
 
 
 const App = () => {
@@ -48,8 +49,9 @@ const App = () => {
     return (
 
         <div className="App">
+            <CounterUseState />
             {/*<ReactMemoDemo />*/}
-            <UseMemoDemo />
+            {/*<UseMemoDemo />*/}
             {/*<UncontrolledAccordion titleValue={"UncontrolledAccordion with useReducer"} />*/}
             {/*<Accordion titleValue={'First acc'}*/}
             {/*           collapsed={accordionCollapsed}*/}
