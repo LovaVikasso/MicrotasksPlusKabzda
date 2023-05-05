@@ -12,11 +12,10 @@ export const CounterUseState = () => {
     //в начальное значение useState можно передать функцию, получим результат вызова этой фукции
     const countChanger = (state: number) => {
         return state + 1
-
-    }
+    } //выносим отдельно в функцию или пишем компактно
     return (
         <>
-            <button onClick={() => setCount(countChanger)}>+</button>
+            <button onClick={() => setCount(state=>state+1)}>+</button>
             {/*так и в set мы можем передать функцию, если действия однотипны, так же получим результат ее вызова*/}
             <br/>
             {count}
