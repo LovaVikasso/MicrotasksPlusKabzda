@@ -5,45 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4a215d0-6516-4ae5-a437-13a37037d2df" name="Changes" comment="organize lessons">
-      <change afterPath="$PROJECT_DIR$/src/components/Accordion/AccordionContainer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ArrayMethods.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Input/InputContainer.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Input/InputContainer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Memo/MemoContainer.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Memo/MemoContainer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navigator/Navigation.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navigator/Navigator.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/OnOff/OnOffContainer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Rating/RatingContainer.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Rating/RatingContainer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/RouterDom/RouterDomExample.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Select/SelectContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LocalStorage/LocalStorageDemo.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Clock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Clock/Clock.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ControlledCheckBox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Checkbox/ControlledCheckBox.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ControlledInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Input/ControlledInput.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ControlledOnOff.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OnOff/ControlledOnOff.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ControlledRating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rating/ControlledRating.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ControlledSelect.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Select/ControlledSelect.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CounterUseState.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CounterUseState/CounterUseState.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FullInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Input/FullInput.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Input/Input.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/OnOff.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OnOff/OnOff.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ReactMemoDemo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Memo/ReactMemoDemo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UncontrolledAccordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/UncontrolledAccordion.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UncontrolledInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Input/UncontrolledInput.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UncontrolledOnOff.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OnOff/UncontrolledOnOff.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UncontrolledRating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rating/UncontrolledRating.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UncontrolledSelect.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Select/UncontrolledSelect.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UseMemoDemo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Memo/UseMemoDemo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UseMemoWithReactMemoDemo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Memo/UseMemoWithReactMemoDemo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/useEffectDemo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UseEffectDemo/useEffectDemo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigator/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigator/Navigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigator/Navigator.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigator/Navigator.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +136,7 @@
       <workItem from="1686910377988" duration="1101000" />
       <workItem from="1687938956451" duration="978000" />
       <workItem from="1687941026896" duration="6652000" />
-      <workItem from="1687948505705" duration="1066000" />
+      <workItem from="1687948505705" duration="3096000" />
     </task>
     <task id="LOCAL-00001" summary="Accordion,Rating,Universal button, universal input, universal button+input">
       <created>1677143486267</created>
@@ -277,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683544058600</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="organize lessons">
+      <created>1687951233740</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1687951233740</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
