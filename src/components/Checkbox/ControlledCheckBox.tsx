@@ -8,7 +8,7 @@ export const ControlledCheckBox = React.memo(() => {
 
     return (
         <div className="ControlledInput">
-            <p>This is controlled checkbox, delete paragraph later </p>
+            <p>This is controlled checkbox, all the logic is here, delete paragraph later </p>
             <input type="checkbox"  checked={parentValue}  onChange={OnChangeHandler}/>
         </div>
     );

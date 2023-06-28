@@ -1,7 +1,7 @@
 .App {
     margin: 50px auto;
     padding: -30px;
-    max-width: 600px;
+    max-width: min-content;
     border-radius: 10px;
     height: 300px;
     text-align: center;

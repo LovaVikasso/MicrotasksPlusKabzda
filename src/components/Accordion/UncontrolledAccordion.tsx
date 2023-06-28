@@ -1,4 +1,4 @@
-import React, {useReducer, useState} from "react";
+import React, {useReducer} from "react";
 
 type AccordionPropsType = {
     titleValue: string
@@ -17,7 +17,6 @@ const reducer = (state: boolean, action: ActionType) => {
         case TOGGLE_COLLAPSED : return !state
         default: return state
     }
-    return state
 }
 
 export const UncontrolledAccordion = React.memo((props: AccordionPropsType) => {

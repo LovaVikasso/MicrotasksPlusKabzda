@@ -6,7 +6,7 @@ type ItemType = {
 }
 type SelectPropsType = {
     items: Array<ItemType>
-    value?: number
+
 }
 
 export const UncontrolledSelect = React.memo((props: SelectPropsType) => {

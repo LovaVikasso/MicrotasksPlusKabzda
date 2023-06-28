@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 
 type ItemType= {
     title:string
@@ -43,7 +43,7 @@ const AccordionBody = React.memo((props:AccordionBodyPropsType) => {
     return (
         <div>
             <ul>
-                {props.items.map((i,index)=><li onClick={()=>{props.onClick(i.value)}}key={index}>{i.title}</li>)}
+                {props.items.map((i,index)=><li onClick={()=>{props.onClick(i.value)}} key={index}>{i.title}</li>)}
             </ul>
         </div>
     )

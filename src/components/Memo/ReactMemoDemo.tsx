@@ -7,13 +7,14 @@ const NewMessagesCounter = (props:{count:number})=>{
 const Users = React.memo((props:{users:Array<string>})=>{
     console.log("Users rendered")
     return <div>{
-        props.users.map((u,i)=><div>{u}</div>)
+        props.users.map((u)=><div>{u}</div>)
     }</div>
 })
 // const Users = React.memo(SecretUsers) - либо создаем новый компонент на основе другого компонента
 export const ReactMemoDemo = () => {
     const [counter,setCounter] = useState(0)
-    const [users,setUsers] = useState(['Victoria', 'Natalia', 'Milly', 'Lola'])
+    const users = ['Victoria', 'Natalia', 'Milly', 'Lola']
+
     return (
         <div>
             <NewMessagesCounter count={counter} /> <button onClick={()=>setCounter(counter+1)}>+</button>
